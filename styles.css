@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  background-image:url('./Pictures_Internet/mbg.jpg');
+  background-position: 50%;
+  background-size:cover;
+  
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #e0bffe;
+  text-align: center;
+  
+ 
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid rgb(226, 234, 239);
+  border-radius: 50%;
+}
+
+.game-over {
+  
+  transform: rotate(345deg);
+  
+}
+
+.music1 {
+  background-image: url('./Pictures_Internet/music1.jpg');
+  background-size:cover;
+}
+
+.music2 {
+  background-image: url("./Pictures_Internet/music2.jpg");
+  background-size:cover;
+  background-position: 40%;
+  
+}
+
+.music3 {
+  background-image: url("./Pictures_Internet/music3.jpg");
+  background-size:cover;
+  background-position: 50%;
+}
+
+.music4 {
+  background-image: url("./Pictures_Internet/music4.jpg");
+  background-size: cover;
+}
+
+.pressed {
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  background-color: rgb(226, 216, 216);
+}
